@@ -1,0 +1,22 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# Logs
+*.log
+
+# Banco H2
+*.db
+*.trace.db
+
+# SO
+.DS_Store
+Thumbs.db
