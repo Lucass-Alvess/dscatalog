@@ -96,5 +96,5 @@ public class ProductDTO {
     public List<CategoryDTO> getCategories() {
         return categories;
     }
-    
+
 }
