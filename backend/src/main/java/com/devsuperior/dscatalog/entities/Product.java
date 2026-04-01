@@ -34,13 +34,13 @@ public class Product {
     public Product() {
     }
 
-    public Product(Long id, Instant date, String imgUrl, Double price, String description, String name) {
+    public Product(Long id, String name, String description, Double price, String imgUrl, Instant date) {
         this.id = id;
-        this.date = date;
-        this.imgUrl = imgUrl;
-        this.price = price;
-        this.description = description;
         this.name = name;
+        this.description = description;
+        this.price = price;
+        this.imgUrl = imgUrl;
+        this.date = date;
     }
 
     public Long getId() {
